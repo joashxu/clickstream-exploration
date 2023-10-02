@@ -1,0 +1,33 @@
+{
+    "schemaName": "clickstream",
+    "dimensionFieldSpecs": [
+      {
+        "name": "user_id",
+        "dataType": "INT"
+      },
+      {
+        "name": "web_page",
+        "dataType": "STRING"
+      },
+      {
+        "name": "order",
+        "dataType": "INT"
+      },
+      {
+        "name": "location",
+        "dataType": "STRING"
+      },
+      {
+        "name": "visit",
+        "dataType": "INT"
+      }
+    ],
+    "dateTimeFieldSpecs": [
+      {
+        "name": "ts",
+        "dataType": "TIMESTAMP",
+        "format": "1:MILLISECONDS:EPOCH",
+        "granularity": "1:MILLISECONDS"
+      }
+    ]
+  }
